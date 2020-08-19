@@ -20,9 +20,9 @@
                     <p
                         class="section__main__top__container__section__item__info__section__text"
                     >
-                        {{ msg }}
+                        Coloris
                     </p>
-                    <span>Absolute blacksatin</span>
+                    <span>{{ coloris }}</span>
                 </div>
                 <div
                     class="section__main__top__container__section__item__info__section"
@@ -32,21 +32,22 @@
                     >
                         Epaisseur
                     </p>
-                    <span>12mm</span>
+                    <span> {{ epaisseur }} </span>
                 </div>
             </div>
         </div>
         <div class="section__main__top__container__section__item col-4 ">
             <img
-                src="./images-component/image-item.png"
+                v-bind:src="imageUrl"
                 alt=""
                 class="section__main__top__container__section__item__image position-absolute"
             />
 
             <span
                 class="section__main__top__container__section__item__span position-absolute"
-                >Avorio</span
             >
+                {{ coloris }}
+            </span>
         </div>
     </div>
 </template>
@@ -54,8 +55,11 @@
 <script>
 export default {
     props: {
-        msg: String
+        coloris: {},
+        epaisseur: {},
+        imageUrl: {}
     },
+
     mounted() {
         //console.log(json);
         console.log("Component mounted.");

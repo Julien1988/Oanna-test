@@ -54,7 +54,21 @@
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt numquam necessitatibus dolor quam porro, at cupiditate voluptatibus rem iste facere.</p>
         </div>
         <div class="section__main__top__container row pt-5 d-flex justify-content-end" id="app">
-            <devis-component msg="test"></devis-component>
+        <?php
+        foreach($content as $item){
+            ?>
+            <devis-component  
+            coloris=<?= $item["materiau"]["coloris"]["name"] ?> 
+            epaisseur=<?= $item["materiau"]["epaisseur"]["name"] ?>
+            imageUrl=<?= $item["materiau"]["coloris"]["image"] ?>
+            >
+            </devis-component>
+            <?php
+            
+        }
+        ?>
+
+
             
             </div>  
         </div>

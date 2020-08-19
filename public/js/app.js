@@ -1961,9 +1961,12 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: {
-    msg: String
+    coloris: {},
+    epaisseur: {},
+    imageUrl: {}
   },
   mounted: function mounted() {
     //console.log(json);
@@ -37623,26 +37626,61 @@ var render = function() {
                       staticClass:
                         "section__main__top__container__section__item__info__section__text"
                     },
+                    [_vm._v("\n                    Coloris\n                ")]
+                  ),
+                  _vm._v(" "),
+                  _c("span", [_vm._v(_vm._s(_vm.coloris))])
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "section__main__top__container__section__item__info__section"
+                },
+                [
+                  _c(
+                    "p",
+                    {
+                      staticClass:
+                        "section__main__top__container__section__item__info__section__text"
+                    },
                     [
                       _vm._v(
-                        "\n                    " +
-                          _vm._s(_vm.msg) +
-                          "\n                "
+                        "\n                    Epaisseur\n                "
                       )
                     ]
                   ),
                   _vm._v(" "),
-                  _c("span", [_vm._v("Absolute blacksatin")])
+                  _c("span", [_vm._v(" " + _vm._s(_vm.epaisseur) + " ")])
                 ]
-              ),
-              _vm._v(" "),
-              _vm._m(1)
+              )
             ]
           )
         ]
       ),
       _vm._v(" "),
-      _vm._m(2)
+      _c(
+        "div",
+        { staticClass: "section__main__top__container__section__item col-4 " },
+        [
+          _c("img", {
+            staticClass:
+              "section__main__top__container__section__item__image position-absolute",
+            attrs: { src: _vm.imageUrl, alt: "" }
+          }),
+          _vm._v(" "),
+          _c(
+            "span",
+            {
+              staticClass:
+                "section__main__top__container__section__item__span position-absolute"
+            },
+            [_vm._v("\n            " + _vm._s(_vm.coloris) + "\n        ")]
+          )
+        ]
+      )
     ]
   )
 }
@@ -37665,55 +37703,6 @@ var staticRenderFns = [
         _c("label", { staticClass: "ml-3", attrs: { for: "radio" } }, [
           _vm._v("2020-0001")
         ])
-      ]
-    )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      {
-        staticClass:
-          "section__main__top__container__section__item__info__section"
-      },
-      [
-        _c(
-          "p",
-          {
-            staticClass:
-              "section__main__top__container__section__item__info__section__text"
-          },
-          [_vm._v("\n                    Epaisseur\n                ")]
-        ),
-        _vm._v(" "),
-        _c("span", [_vm._v("12mm")])
-      ]
-    )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      { staticClass: "section__main__top__container__section__item col-4 " },
-      [
-        _c("img", {
-          staticClass:
-            "section__main__top__container__section__item__image position-absolute",
-          attrs: { src: __webpack_require__(/*! ./images-component/image-item.png */ "./resources/js/components/images-component/image-item.png"), alt: "" }
-        }),
-        _vm._v(" "),
-        _c(
-          "span",
-          {
-            staticClass:
-              "section__main__top__container__section__item__span position-absolute"
-          },
-          [_vm._v("Avorio")]
-        )
       ]
     )
   }
@@ -50152,17 +50141,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ExampleComponent_vue_vue_type_template_id_299e239e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
-
-/***/ }),
-
-/***/ "./resources/js/components/images-component/image-item.png":
-/*!*****************************************************************!*\
-  !*** ./resources/js/components/images-component/image-item.png ***!
-  \*****************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/images/image-item.png?505f1d964150ae6a5ddfbcb9a89009ae";
 
 /***/ }),
 
