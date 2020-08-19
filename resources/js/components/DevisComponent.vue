@@ -2,12 +2,15 @@
     <!-- Items -->
     <div
         class="section__main__top__container__section d-flex background-primary col-5 rounded row m-4"
+        v-bind:id="indexCount"
+        v-on:click="greet"
     >
         <div class="section__main__top__container__section__item col-8 mb-4">
             <div class="section__main__top__container__section__item__top mt-4">
                 <input
                     type="radio"
                     aria-label="Radio button for following text input"
+                    class="radio-button"
                 />
                 <label class="ml-3" for="radio">2020-0001</label>
             </div>
@@ -57,7 +60,13 @@ export default {
     props: {
         coloris: {},
         epaisseur: {},
-        imageUrl: {}
+        imageUrl: {},
+        indexCount: {}
+    },
+    methods: {
+        greet: function(event) {
+            console.log("test");
+        }
     }
 };
 </script>

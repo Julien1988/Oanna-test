@@ -55,16 +55,19 @@
         </div>
         <div class="section__main__top__container row pt-5 d-flex justify-content-end" id="app">
         <?php
+         $indexCount = 1;
         foreach($content as $item){
             ?>
             <devis-component  
             coloris=<?= $item["materiau"]["coloris"]["name"] ?> 
             epaisseur=<?= $item["materiau"]["epaisseur"]["name"] ?>
             imageUrl=<?= $item["materiau"]["coloris"]["image"] ?>
+            indexCount=<?= $indexCount ?>
+            
             >
             </devis-component>
             <?php
-            
+            $indexCount++;
         }
         ?>
 
@@ -79,9 +82,28 @@
     </div>
 </section>
 <section class="asside col-2 m-2 pt-5 background-primary border rounded" id="app-asside">
+    
 
-
-    <aside-component></aside-component>
+    <aside-component
+    matiereName="test"
+    colorName='test'
+    epaisseurTaille="test"
+    dimensionTaille="test"
+    surfaceTaille="test"
+    longueurChant="test"
+    taqueDeCuisson="test"
+    priseDeCourent="test"
+    autreFaconnage="test"
+    dimansion="test"
+    surface="test"
+    longueurDesChants="test"
+    commentaireUtilisateur="test"
+    ></aside-component>
 </section>
+
+<script>
+
+
+</script>
 
 @endsection

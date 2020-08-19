@@ -2005,6 +2005,21 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 /* harmony default export */ __webpack_exports__["default"] = ({
+  props: {
+    matiereName: {},
+    colorName: {},
+    epaisseurTaille: {},
+    dimensionTaille: {},
+    surfaceTaille: {},
+    longueurChant: {},
+    taqueDeCuisson: {},
+    priseDeCourent: {},
+    autreFaconnage: {},
+    dimansion: {},
+    surface: {},
+    longueurDesChants: {},
+    commentaireUtilisateur: {}
+  },
   mounted: function mounted() {
     console.log("Component mounted !!!");
   }
@@ -2075,11 +2090,20 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: {
     coloris: {},
     epaisseur: {},
-    imageUrl: {}
+    imageUrl: {},
+    indexCount: {}
+  },
+  methods: {
+    greet: function greet(event) {
+      console.log("test");
+    }
   }
 });
 
@@ -37699,158 +37723,170 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c("aside", { staticClass: "test" }, [
+    _c(
+      "h3",
+      {
+        staticClass:
+          "asside__title text-uppercase border-bottom pb-3 font-weight-bold"
+      },
+      [_vm._v("\n        Détail de votre devis\n    ")]
+    ),
+    _vm._v(" "),
+    _c(
+      "table",
+      { staticClass: "asside_table table table-borderless border-bottom" },
+      [
+        _c("tbody", [
+          _c("tr", [
+            _c("td", [_vm._v("Matière")]),
+            _vm._v(" "),
+            _c("td", [_vm._v(_vm._s(_vm.matiereName))])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", [_vm._v("Coloris")]),
+            _vm._v(" "),
+            _c("td", [_vm._v(_vm._s(_vm.colorName))])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", [_vm._v("Epaisseur")]),
+            _vm._v(" "),
+            _c("td", [_vm._v(_vm._s(_vm.epaisseurTaille))])
+          ])
+        ])
+      ]
+    ),
+    _vm._v(" "),
+    _c(
+      "table",
+      { staticClass: "asside_table table table-borderless border-bottom" },
+      [
+        _vm._m(0),
+        _vm._v(" "),
+        _c("tbody", [
+          _c("tr", [
+            _c("td", [_vm._v("Dimension")]),
+            _vm._v(" "),
+            _c("td", [_vm._v(_vm._s(_vm.dimensionTaille))])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", [_vm._v("Surface")]),
+            _vm._v(" "),
+            _c("td", [_vm._v(_vm._s(_vm.surfaceTaille))])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", [_vm._v("Longueur des chants")]),
+            _vm._v(" "),
+            _c("td", [_vm._v(_vm._s(_vm.longueurChant))])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", [_vm._v("Taque de cuisson 01")]),
+            _vm._v(" "),
+            _c("td", [_vm._v(_vm._s(_vm.taqueDeCuisson))])
+          ]),
+          _vm._v(" "),
+          _vm._m(1),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", [_vm._v("Prise de courant")]),
+            _vm._v(" "),
+            _c("td", [_vm._v(_vm._s(_vm.priseDeCourent))])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", [_vm._v("Autre façonnage")]),
+            _vm._v(" "),
+            _c("td", [_vm._v(_vm._s(_vm.autreFaconnage))])
+          ])
+        ])
+      ]
+    ),
+    _vm._v(" "),
+    _c(
+      "table",
+      { staticClass: "asside_table table table-borderless border-bottom" },
+      [
+        _vm._m(2),
+        _vm._v(" "),
+        _c("tbody", [
+          _c("tr", [
+            _c("td", [_vm._v("Dimension")]),
+            _vm._v(" "),
+            _c("td", [_vm._v(_vm._s(_vm.dimansion))])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", [_vm._v("Surface")]),
+            _vm._v(" "),
+            _c("td", [_vm._v(_vm._s(_vm.surface))])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", [_vm._v("Longueur des chants")]),
+            _vm._v(" "),
+            _c("td", [_vm._v(_vm._s(_vm.longueurDesChants) + "T")])
+          ])
+        ])
+      ]
+    ),
+    _vm._v(" "),
+    _c("div", { staticClass: "asside__container" }, [
+      _c("h4", { staticClass: "asside__container__title" }, [
+        _vm._v("Commentaire")
+      ]),
+      _vm._v(" "),
+      _c("p", { staticClass: "asside__container__text font-weight-bold" }, [
+        _vm._v(
+          "\n            " + _vm._s(_vm.commentaireUtilisateur) + "\n        "
+        )
+      ])
+    ])
+  ])
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("aside", { staticClass: "test" }, [
-      _c(
-        "h3",
-        {
-          staticClass:
-            "asside__title text-uppercase border-bottom pb-3 font-weight-bold"
-        },
-        [_vm._v("\n        Détail de votre devis\n    ")]
-      ),
+    return _c("thead", [
+      _c("tr", [
+        _c("th", { staticClass: "pb-2", attrs: { scope: "col" } }, [
+          _vm._v("Plan 01")
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("tr", [
+      _c("td", [_vm._v("Evier 01")]),
       _vm._v(" "),
-      _c(
-        "table",
-        { staticClass: "asside_table table table-borderless border-bottom" },
-        [
-          _c("tbody", [
-            _c("tr", [
-              _c("td", [_vm._v("Matière")]),
-              _vm._v(" "),
-              _c("td", [_vm._v("Ceramique")])
-            ]),
-            _vm._v(" "),
-            _c("tr", [
-              _c("td", [_vm._v("Coloris")]),
-              _vm._v(" "),
-              _c("td", [_vm._v("Avorio")])
-            ]),
-            _vm._v(" "),
-            _c("tr", [
-              _c("td", [_vm._v("Epaisseur")]),
-              _vm._v(" "),
-              _c("td", [_vm._v("12mm")])
-            ])
-          ])
-        ]
-      ),
-      _vm._v(" "),
-      _c(
-        "table",
-        { staticClass: "asside_table table table-borderless border-bottom" },
-        [
-          _c("thead", [
-            _c("tr", [
-              _c("th", { staticClass: "pb-2", attrs: { scope: "col" } }, [
-                _vm._v("Plan 01")
-              ])
-            ])
-          ]),
+      _c("td", [
+        _c("ul", { staticClass: "list-unstyled" }, [
+          _c("li", [_vm._v("Sous-encastrer")]),
           _vm._v(" "),
-          _c("tbody", [
-            _c("tr", [
-              _c("td", [_vm._v("Dimension")]),
-              _vm._v(" "),
-              _c("td", [_vm._v("2500 x 900 mm")])
-            ]),
-            _vm._v(" "),
-            _c("tr", [
-              _c("td", [_vm._v("Surface")]),
-              _vm._v(" "),
-              _c("td", [_vm._v("2.25 M2")])
-            ]),
-            _vm._v(" "),
-            _c("tr", [
-              _c("td", [_vm._v("Longueur des chants")]),
-              _vm._v(" "),
-              _c("td", [_vm._v("2.5 MCT")])
-            ]),
-            _vm._v(" "),
-            _c("tr", [
-              _c("td", [_vm._v("Taque de cuisson 01")]),
-              _vm._v(" "),
-              _c("td", [_vm._v("Fleur")])
-            ]),
-            _vm._v(" "),
-            _c("tr", [
-              _c("td", [_vm._v("Evier 01")]),
-              _vm._v(" "),
-              _c("td", [
-                _c("ul", { staticClass: "list-unstyled" }, [
-                  _c("li", [_vm._v("Sous-encastrer")]),
-                  _vm._v(" "),
-                  _c("li", [_vm._v("Sous-encastrer")]),
-                  _vm._v(" "),
-                  _c("li", [_vm._v("Sous-encastrer")])
-                ])
-              ])
-            ]),
-            _vm._v(" "),
-            _c("tr", [
-              _c("td", [_vm._v("Prise de courant")]),
-              _vm._v(" "),
-              _c("td", [_vm._v("2PC")])
-            ]),
-            _vm._v(" "),
-            _c("tr", [
-              _c("td", [_vm._v("Autre façonnage")]),
-              _vm._v(" "),
-              _c("td", [_vm._v("DécoupeA 45°")])
-            ])
-          ])
-        ]
-      ),
-      _vm._v(" "),
-      _c(
-        "table",
-        { staticClass: "asside_table table table-borderless border-bottom" },
-        [
-          _c("thead", [
-            _c("tr", [
-              _c("th", { staticClass: "pb-2", attrs: { scope: "col" } }, [
-                _vm._v("Crédance 01")
-              ])
-            ])
-          ]),
+          _c("li", [_vm._v("Sous-encastrer")]),
           _vm._v(" "),
-          _c("tbody", [
-            _c("tr", [
-              _c("td", [_vm._v("Dimension")]),
-              _vm._v(" "),
-              _c("td", [_vm._v("2500 x 900 mm")])
-            ]),
-            _vm._v(" "),
-            _c("tr", [
-              _c("td", [_vm._v("Surface")]),
-              _vm._v(" "),
-              _c("td", [_vm._v("2.25 M2")])
-            ]),
-            _vm._v(" "),
-            _c("tr", [
-              _c("td", [_vm._v("Longueur des chants")]),
-              _vm._v(" "),
-              _c("td", [_vm._v("2.5 MCT")])
-            ])
-          ])
-        ]
-      ),
-      _vm._v(" "),
-      _c("div", { staticClass: "asside__container" }, [
-        _c("h4", { staticClass: "asside__container__title" }, [
-          _vm._v("Commentaire")
-        ]),
-        _vm._v(" "),
-        _c("p", { staticClass: "asside__container__text font-weight-bold" }, [
-          _vm._v(
-            "\n            Lorem ipsum dolor sit amet consectetur.\n        "
-          )
+          _c("li", [_vm._v("Sous-encastrer")])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("thead", [
+      _c("tr", [
+        _c("th", { staticClass: "pb-2", attrs: { scope: "col" } }, [
+          _vm._v("Crédance 01")
         ])
       ])
     ])
@@ -37881,7 +37917,9 @@ var render = function() {
     "div",
     {
       staticClass:
-        "section__main__top__container__section d-flex background-primary col-5 rounded row m-4"
+        "section__main__top__container__section d-flex background-primary col-5 rounded row m-4",
+      attrs: { id: _vm.indexCount },
+      on: { click: _vm.greet }
     },
     [
       _c(
@@ -37980,6 +38018,7 @@ var staticRenderFns = [
       { staticClass: "section__main__top__container__section__item__top mt-4" },
       [
         _c("input", {
+          staticClass: "radio-button",
           attrs: {
             type: "radio",
             "aria-label": "Radio button for following text input"
