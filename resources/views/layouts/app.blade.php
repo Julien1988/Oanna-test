@@ -20,13 +20,13 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body>
-    <div id="app">
+   
     
        
 
         <main class="py-4 row d-flex">
             @yield('content')
         </main>
-    </div>
+   
 </body>
 </html>
