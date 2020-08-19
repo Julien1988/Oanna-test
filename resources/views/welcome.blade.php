@@ -241,5 +241,9 @@
           
         </tbody>
     </table>
+    <div class="asside__container">
+        <h4 class="asside__container__title">Commentaire</h4>
+        <p class="asside__container__text font-weight-bold">Lorem ipsum dolor sit amet consectetur.</p>
+    </div>
 </aside>
 @endsection

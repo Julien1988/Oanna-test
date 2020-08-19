@@ -81,6 +81,7 @@ h3 {
 
 .asside__title {
     border-color: $orange !important;
+    border-bottom-width: 2px !important;
 }
 
 tbody {
@@ -90,4 +91,12 @@ tbody {
             font-weight: bold;
         }
     }
+}
+
+.asside__container__title {
+    font-size: 1.05 rem;
+}
+
+.asside__container__text {
+    color: $orange;
 }

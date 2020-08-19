@@ -10982,10 +10982,19 @@ h3 {
 
 .asside__title {
   border-color: #ee720f !important;
+  border-bottom-width: 2px !important;
 }
 
 tbody tr > :last-child {
   color: #ee720f;
   font-weight: bold;
+}
+
+.asside__container__title {
+  font-size: 1.05 rem;
+}
+
+.asside__container__text {
+  color: #ee720f;
 }
 
