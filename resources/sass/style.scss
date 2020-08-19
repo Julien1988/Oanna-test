@@ -1,8 +1,45 @@
 .section__header__top__container__lines {
-
     border-bottom: 3px solid orange;
 
     max-width: 35px;
     min-height: 2px;
+}
 
+.section__main__top__container__section__item__image {
+    width: 70%;
+    top: -20px;
+    right: 20px;
+}
+
+.section__main__top__container__section__item__span {
+    top: 77px;
+    right: 45px;
+}
+
+.section__main__top__container__section__item__info__section__text {
+    margin-bottom: 0em;
+}
+
+.section__main__top {
+    margin-left: 3em;
+    > p {
+        color: orange;
+    }
+}
+
+.section__main__top__container__button {
+    color: orange;
+    border: 1px solid orange;
+    text-align: right;
+}
+
+.section__main__top__container__button__section {
+    text-align: right;
+}
+
+html,
+body {
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
 }
