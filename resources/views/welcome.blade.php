@@ -1,5 +1,6 @@
 @extends('layouts.app')
 @section('content')
+
 <section class="section col-9 ml-5 m-2 p-5 background-primary border rounded" >
     <div class="section__header">
         <div class="section__header__top d-flex justify-content-between ">
@@ -53,10 +54,8 @@
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt numquam necessitatibus dolor quam porro, at cupiditate voluptatibus rem iste facere.</p>
         </div>
         <div class="section__main__top__container row pt-5 d-flex justify-content-end" id="app">
-            <devis-component></devis-component>
-            <devis-component></devis-component>
-            <devis-component></devis-component>
-            <devis-component></devis-component>
+            <devis-component msg="test"></devis-component>
+            
             </div>  
         </div>
                 <div  class="section__main__top__container__button__section mt-5 ">

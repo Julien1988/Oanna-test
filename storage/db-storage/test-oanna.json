@@ -1,0 +1,330 @@
+[
+  {
+    "materiau": {
+      "matiere": "dekton",
+      "epaisseur": {
+        "value": "prix20",
+        "name": "20mm"
+      },
+      "coloris": {
+        "alias": "calacatta-extra-lux-ceramique-SM",
+        "name": "Calacatta Extra Lux",
+        "image": "https://www.oanna.be/dist/test/images/Starker/CER PP_Absolute Black.jpg",
+        "reference": "CE_ST_SM_NA_003"
+      }
+    },
+    "plans": [
+      {
+        "longueur": "1500",
+        "largeur": "800",
+        "chants": "1.28",
+        "total": "2.08",
+        "hasTaques": false,
+        "taquesNumber": 0,
+        "taques": [],
+        "hasEviers": false,
+        "eviersNumber": 0,
+        "eviers": [],
+        "hasPrises": false,
+        "prises": null,
+        "hasFaconnages": false,
+        "faconnages": null
+      },
+      {
+        "longueur": "4500",
+        "largeur": "800",
+        "chants": "2.5",
+        "total": "2.25",
+        "hasTaques": true,
+        "taquesNumber": "1",
+        "taques": [
+          {
+            "id": 1,
+            "decoupe": "poser"
+          }
+        ],
+        "hasEviers": false,
+        "eviersNumber": 0,
+        "eviers": [],
+        "hasPrises": false,
+        "prises": null,
+        "hasFaconnages": true,
+        "faconnages": "Autre faconnage"
+      }
+    ],
+    "credences": [
+      {
+        "longueur": "1900",
+        "largeur": "700",
+        "total": "0.90",
+        "chants": "1.52",
+        "decoupes": "2"
+      }
+    ],
+    "plinthes": [],
+    "commentaire": "Je souhaite un rendez vous pour la prise de mesures",
+    "infos": {
+      "livraison": "mesure et pose",
+      "is_etage": true,
+      "is_old": true,
+      "has_access_infos": false,
+      "firstname": "Geoffrey",
+      "lastname": "OANNA",
+      "street": "rue du lac 123",
+      "number": "123",
+      "box": "",
+      "city": "Li\u00e8ge",
+      "email": "geoffrey@oanna.be",
+      "phone": "0475569868",
+      "postal_code": "4000"
+    },
+    "date": "17-08-2020",
+    "reference": "2020-0004"
+  },
+  {
+    "materiau": {
+      "matiere": "ceramique",
+      "epaisseur": {
+        "value": "prix20",
+        "name": "20mm"
+      },
+      "coloris": {
+        "alias": "calacatta-extra-lux-ceramique-SM",
+        "name": "Calacatta Extra Lux",
+        "image": "https://www.oanna.be/dist/test/images/Starker/Aeris.jpg",
+        "reference": "CE_ST_SM_NA_003"
+      }
+    },
+    "plans": [
+      {
+        "longueur": "1200",
+        "largeur": "900",
+        "chants": "1.2",
+        "total": "1.08",
+        "hasTaques": false,
+        "taquesNumber": 0,
+        "taques": [],
+        "hasEviers": false,
+        "eviersNumber": 0,
+        "eviers": [],
+        "hasPrises": false,
+        "prises": null,
+        "hasFaconnages": false,
+        "faconnages": null
+      },
+      {
+        "longueur": "2500",
+        "largeur": "900",
+        "chants": "2.5",
+        "total": "2.25",
+        "hasTaques": true,
+        "taquesNumber": "1",
+        "taques": [
+          {
+            "id": 1,
+            "decoupe": "poser"
+          }
+        ],
+        "hasEviers": false,
+        "eviersNumber": 0,
+        "eviers": [],
+        "hasPrises": false,
+        "prises": null,
+        "hasFaconnages": true,
+        "faconnages": "Autre faconnage"
+      }
+    ],
+    "credences": [
+      {
+        "longueur": "1200",
+        "largeur": "500",
+        "total": "0.60",
+        "chants": "1.2",
+        "decoupes": "2"
+      }
+    ],
+    "plinthes": [],
+    "commentaire": "Je souhaite un rendez vous pour la prise de mesures",
+    "infos": {
+      "livraison": "mesure et pose",
+      "is_etage": true,
+      "is_old": true,
+      "has_access_infos": false,
+      "firstname": "Geoffrey",
+      "lastname": "OANNA",
+      "street": "rue du lac 123",
+      "number": "123",
+      "box": "",
+      "city": "Li\u00e8ge",
+      "email": "geoffrey@oanna.be",
+      "phone": "0475569868",
+      "postal_code": "4000"
+    },
+    "date": "17-08-2020",
+    "reference": "2020-0004"
+  },
+  {
+    "materiau": {
+      "matiere": "ceramique",
+      "epaisseur": {
+        "value": "prix20",
+        "name": "20mm"
+      },
+      "coloris": {
+        "alias": "calacatta-extra-lux-ceramique-SM",
+        "name": "Calacatta Extra Lux",
+        "image": "https://www.oanna.be/dist/test/images/Starker/Alumino Nube.jpg",
+        "reference": "CE_ST_SM_NA_003"
+      }
+    },
+    "plans": [
+      {
+        "longueur": "1200",
+        "largeur": "900",
+        "chants": "1.2",
+        "total": "1.08",
+        "hasTaques": false,
+        "taquesNumber": 0,
+        "taques": [],
+        "hasEviers": false,
+        "eviersNumber": 0,
+        "eviers": [],
+        "hasPrises": false,
+        "prises": null,
+        "hasFaconnages": false,
+        "faconnages": null
+      },
+      {
+        "longueur": "2500",
+        "largeur": "900",
+        "chants": "2.5",
+        "total": "2.25",
+        "hasTaques": true,
+        "taquesNumber": "1",
+        "taques": [
+          {
+            "id": 1,
+            "decoupe": "poser"
+          }
+        ],
+        "hasEviers": false,
+        "eviersNumber": 0,
+        "eviers": [],
+        "hasPrises": false,
+        "prises": null,
+        "hasFaconnages": true,
+        "faconnages": "Autre faconnage"
+      }
+    ],
+    "credences": [
+      {
+        "longueur": "1200",
+        "largeur": "500",
+        "total": "0.60",
+        "chants": "1.2",
+        "decoupes": "2"
+      }
+    ],
+    "plinthes": [],
+    "commentaire": "Je souhaite un rendez vous pour la prise de mesures",
+    "infos": {
+      "livraison": "mesure et pose",
+      "is_etage": true,
+      "is_old": true,
+      "has_access_infos": false,
+      "firstname": "Geoffrey",
+      "lastname": "OANNA",
+      "street": "rue du lac 123",
+      "number": "123",
+      "box": "",
+      "city": "Li\u00e8ge",
+      "email": "geoffrey@oanna.be",
+      "phone": "0475569868",
+      "postal_code": "4000"
+    },
+    "date": "17-08-2020",
+    "reference": "2020-0004"
+  },
+  {
+    "materiau": {
+      "matiere": "ceramique",
+      "epaisseur": {
+        "value": "prix20",
+        "name": "20mm"
+      },
+      "coloris": {
+        "alias": "calacatta-extra-lux-ceramique-SM",
+        "name": "Calacatta Extra Lux",
+        "image": "https://www.oanna.be/dist/test/images/Starker/Angola Black.jpg",
+        "reference": "CE_ST_SM_NA_003"
+      }
+    },
+    "plans": [
+      {
+        "longueur": "1200",
+        "largeur": "900",
+        "chants": "1.2",
+        "total": "1.08",
+        "hasTaques": false,
+        "taquesNumber": 0,
+        "taques": [],
+        "hasEviers": false,
+        "eviersNumber": 0,
+        "eviers": [],
+        "hasPrises": false,
+        "prises": null,
+        "hasFaconnages": false,
+        "faconnages": null
+      },
+      {
+        "longueur": "2500",
+        "largeur": "900",
+        "chants": "2.5",
+        "total": "2.25",
+        "hasTaques": true,
+        "taquesNumber": "1",
+        "taques": [
+          {
+            "id": 1,
+            "decoupe": "poser"
+          }
+        ],
+        "hasEviers": false,
+        "eviersNumber": 0,
+        "eviers": [],
+        "hasPrises": false,
+        "prises": null,
+        "hasFaconnages": true,
+        "faconnages": "Autre faconnage"
+      }
+    ],
+    "credences": [
+      {
+        "longueur": "1200",
+        "largeur": "500",
+        "total": "0.60",
+        "chants": "1.2",
+        "decoupes": "2"
+      }
+    ],
+    "plinthes": [],
+    "commentaire": "Je souhaite un rendez vous pour la prise de mesures",
+    "infos": {
+      "livraison": "mesure et pose",
+      "is_etage": true,
+      "is_old": true,
+      "has_access_infos": false,
+      "firstname": "Geoffrey",
+      "lastname": "OANNA",
+      "street": "rue du lac 123",
+      "number": "123",
+      "box": "",
+      "city": "Li\u00e8ge",
+      "email": "geoffrey@oanna.be",
+      "phone": "0475569868",
+      "postal_code": "4000"
+    },
+    "date": "17-08-2020",
+    "reference": "2020-0004"
+  }
+]

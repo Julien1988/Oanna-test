@@ -20,7 +20,7 @@
                     <p
                         class="section__main__top__container__section__item__info__section__text"
                     >
-                        Coloris
+                        {{ msg }}
                     </p>
                     <span>Absolute blacksatin</span>
                 </div>
@@ -53,7 +53,11 @@
 
 <script>
 export default {
+    props: {
+        msg: String
+    },
     mounted() {
+        //console.log(json);
         console.log("Component mounted.");
     }
 };

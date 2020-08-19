@@ -1962,7 +1962,11 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 /* harmony default export */ __webpack_exports__["default"] = ({
+  props: {
+    msg: String
+  },
   mounted: function mounted() {
+    //console.log(json);
     console.log("Component mounted.");
   }
 });
@@ -37584,7 +37588,63 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c(
+    "div",
+    {
+      staticClass:
+        "section__main__top__container__section d-flex background-primary col-5 rounded row m-4"
+    },
+    [
+      _c(
+        "div",
+        {
+          staticClass: "section__main__top__container__section__item col-8 mb-4"
+        },
+        [
+          _vm._m(0),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass:
+                "section__main__top__container__section__item__info d-flex"
+            },
+            [
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "section__main__top__container__section__item__info__section mr-4"
+                },
+                [
+                  _c(
+                    "p",
+                    {
+                      staticClass:
+                        "section__main__top__container__section__item__info__section__text"
+                    },
+                    [
+                      _vm._v(
+                        "\n                    " +
+                          _vm._s(_vm.msg) +
+                          "\n                "
+                      )
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c("span", [_vm._v("Absolute blacksatin")])
+                ]
+              ),
+              _vm._v(" "),
+              _vm._m(1)
+            ]
+          )
+        ]
+      ),
+      _vm._v(" "),
+      _vm._m(2)
+    ]
+  )
 }
 var staticRenderFns = [
   function() {
@@ -37593,121 +37653,66 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c(
       "div",
+      { staticClass: "section__main__top__container__section__item__top mt-4" },
+      [
+        _c("input", {
+          attrs: {
+            type: "radio",
+            "aria-label": "Radio button for following text input"
+          }
+        }),
+        _vm._v(" "),
+        _c("label", { staticClass: "ml-3", attrs: { for: "radio" } }, [
+          _vm._v("2020-0001")
+        ])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
       {
         staticClass:
-          "section__main__top__container__section d-flex background-primary col-5 rounded row m-4"
+          "section__main__top__container__section__item__info__section"
       },
       [
         _c(
-          "div",
+          "p",
           {
             staticClass:
-              "section__main__top__container__section__item col-8 mb-4"
+              "section__main__top__container__section__item__info__section__text"
           },
-          [
-            _c(
-              "div",
-              {
-                staticClass:
-                  "section__main__top__container__section__item__top mt-4"
-              },
-              [
-                _c("input", {
-                  attrs: {
-                    type: "radio",
-                    "aria-label": "Radio button for following text input"
-                  }
-                }),
-                _vm._v(" "),
-                _c("label", { staticClass: "ml-3", attrs: { for: "radio" } }, [
-                  _vm._v("2020-0001")
-                ])
-              ]
-            ),
-            _vm._v(" "),
-            _c(
-              "div",
-              {
-                staticClass:
-                  "section__main__top__container__section__item__info d-flex"
-              },
-              [
-                _c(
-                  "div",
-                  {
-                    staticClass:
-                      "section__main__top__container__section__item__info__section mr-4"
-                  },
-                  [
-                    _c(
-                      "p",
-                      {
-                        staticClass:
-                          "section__main__top__container__section__item__info__section__text"
-                      },
-                      [
-                        _vm._v(
-                          "\n                    Coloris\n                "
-                        )
-                      ]
-                    ),
-                    _vm._v(" "),
-                    _c("span", [_vm._v("Absolute blacksatin")])
-                  ]
-                ),
-                _vm._v(" "),
-                _c(
-                  "div",
-                  {
-                    staticClass:
-                      "section__main__top__container__section__item__info__section"
-                  },
-                  [
-                    _c(
-                      "p",
-                      {
-                        staticClass:
-                          "section__main__top__container__section__item__info__section__text"
-                      },
-                      [
-                        _vm._v(
-                          "\n                    Epaisseur\n                "
-                        )
-                      ]
-                    ),
-                    _vm._v(" "),
-                    _c("span", [_vm._v("12mm")])
-                  ]
-                )
-              ]
-            )
-          ]
+          [_vm._v("\n                    Epaisseur\n                ")]
         ),
         _vm._v(" "),
+        _c("span", [_vm._v("12mm")])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticClass: "section__main__top__container__section__item col-4 " },
+      [
+        _c("img", {
+          staticClass:
+            "section__main__top__container__section__item__image position-absolute",
+          attrs: { src: __webpack_require__(/*! ./images-component/image-item.png */ "./resources/js/components/images-component/image-item.png"), alt: "" }
+        }),
+        _vm._v(" "),
         _c(
-          "div",
+          "span",
           {
-            staticClass: "section__main__top__container__section__item col-4 "
+            staticClass:
+              "section__main__top__container__section__item__span position-absolute"
           },
-          [
-            _c("img", {
-              staticClass:
-                "section__main__top__container__section__item__image position-absolute",
-              attrs: {
-                src: __webpack_require__(/*! ./images-component/image-item.png */ "./resources/js/components/images-component/image-item.png"),
-                alt: ""
-              }
-            }),
-            _vm._v(" "),
-            _c(
-              "span",
-              {
-                staticClass:
-                  "section__main__top__container__section__item__span position-absolute"
-              },
-              [_vm._v("Avorio")]
-            )
-          ]
+          [_vm._v("Avorio")]
         )
       ]
     )
