@@ -21,6 +21,7 @@ window.Vue = require('vue');
 
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 Vue.component('devis-component', require('./components/DevisComponent.vue').default);
+Vue.component('aside-component', require('./components/AsideComponent.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -30,4 +31,8 @@ Vue.component('devis-component', require('./components/DevisComponent.vue').defa
 
 const app = new Vue({
     el: '#app',
+});
+
+const aside = new Vue({
+    el: '#app-asside',
 });

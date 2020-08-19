@@ -58,11 +58,6 @@ export default {
         coloris: {},
         epaisseur: {},
         imageUrl: {}
-    },
-
-    mounted() {
-        //console.log(json);
-        console.log("Component mounted.");
     }
 };
 </script>
