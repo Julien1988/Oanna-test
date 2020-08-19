@@ -13,7 +13,7 @@
   --purple: #9561e2;
   --pink: #f66d9b;
   --red: #e3342f;
-  --orange: #f6993f;
+  --orange: #ee720f;
   --yellow: #ffed4a;
   --green: #38c172;
   --teal: #4dc0b5;
@@ -10905,7 +10905,7 @@ a.text-dark:focus {
 }
 
 .section__header__top__container__lines {
-  border-bottom: 3px solid orange;
+  border-bottom: 3px solid #ee720f;
   max-width: 35px;
   min-height: 2px;
 }
@@ -10926,16 +10926,16 @@ a.text-dark:focus {
 }
 
 .section__main__top {
-  margin-left: 3em;
+  margin-left: 4.5em;
 }
 
 .section__main__top > p {
-  color: orange;
+  color: #ee720f;
 }
 
 .section__main__top__container__button {
-  color: orange;
-  border: 1px solid orange;
+  color: #ee720f;
+  border: 1px solid #ee720f;
   text-align: right;
 }
 
@@ -10948,5 +10948,22 @@ body {
   font-weight: 200;
   height: 100vh;
   margin: 0;
+}
+
+.background-primary {
+  background-color: #f2f1ee;
+}
+
+.button-next {
+  border-color: #ee720f !important;
+}
+
+.button-new {
+  background-color: #f2f0ec !important;
+}
+
+.section__header__nav__list__item a:hover {
+  color: black !important;
+  border: 1px solid #ee720f !important;
 }
 

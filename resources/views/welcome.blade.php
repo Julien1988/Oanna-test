@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-<section class="section col-8 m-2 p-5 bg-secondary" >
+<section class="section col-9 ml-5 m-2 p-5 background-primary border rounded" >
     <div class="section__header">
         <div class="section__header__top d-flex justify-content-between ">
             <div class="section__header__top__container">
@@ -8,19 +8,44 @@
                 <div class="section__header__top__container__lines"></div>
             </div>
             
-            <a href="#" class="section__header__top__title__button border rounded text-uppercase p-2 m-2">Nouveau devis</a>
+            <a href="#" class="section__header__top__title__button border rounded text-uppercase p-2 m-2 text-dark button-new">Nouveau devis</a>
         </div>
         <nav class="section__header__nav">
             <ul class="section__header__nav__list list-inline d-flex">
-                <li class="section__header__nav__list__item m-1 p-1 border rounded text-uppercase">Type de matériau</li>
-                <li class="section__header__nav__list__item m-1 p-1 border rounded text-uppercase">Partie du plan de travail</li>
-                <li class="section__header__nav__list__item m-1 p-1 border rounded text-uppercase">Crédences et plinthes</li>
-                <li class="section__header__nav__list__item m-1 p-1 border rounded text-uppercase">Découpe</li>
-                <li class="section__header__nav__list__item m-1 p-1 border rounded text-uppercase">Coordonnées complètes</li>
+                <li class="section__header__nav__list__item m-1 p-1  text-uppercase">
+                    <a href="#" class="section__header__nav__list__item__link rounded p-1 text-decoration-none text-secondary">
+
+                        Type de matériau
+                    </a>
+            </li>
+                <li class="section__header__nav__list__item m-1 p-1  text-uppercase">
+                <a href="#" class="section__header__nav__list__item__link rounded p-1 text-decoration-none text-secondary">
+
+                    Partie du plan de travail
+                </a>    
+            </li>
+                <li class="section__header__nav__list__item m-1 p-1  text-uppercase">
+                <a href="#" class="section__header__nav__list__item__link rounded p-1 text-decoration-none text-secondary">
+
+                    Crédences et plinthes
+                </a>    
+            </li>
+                <li class="section__header__nav__list__item m-1 p-1  text-uppercase">
+                <a href="#" class="section__header__nav__list__item__link rounded p-1 text-decoration-none text-secondary">
+
+                    Découpe
+                </a>    
+            </li>
+                <li class="section__header__nav__list__item m-1 p-1  text-uppercase">
+                <a href="#" class="section__header__nav__list__item__link rounded p-1 text-decoration-none text-secondary">
+
+                    Coordonnées complètes
+                </a>    
+            </li>
             </ul>
         </nav>
     </div>
-    <div class="section__main bg-light">
+    <div class="section__main bg-light pt-5 pb-5 pr-5 border rounded">
         <div class="section__main__top">
             <h2 class="section__main__top__title text-uppercase">Liste des devis</h2>
             <p class="section__main__top__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa, cumque.
@@ -29,7 +54,7 @@
         </div>
         <div class="section__main__top__container row pt-5 d-flex justify-content-end">
             <!-- Items -->
-            <div class="section__main__top__container__section d-flex bg-secondary col-5 rounded row m-4">
+            <div class="section__main__top__container__section d-flex background-primary col-5 rounded row m-4">
                 <div class="section__main__top__container__section__item col-8 mb-4">
                     <div class="section__main__top__container__section__item__top mt-4">
                         <input type="radio" aria-label="Radio button for following text input">
@@ -53,7 +78,7 @@
                 </div>
             </div>
             <!-- Items -->
-            <div class="section__main__top__container__section d-flex bg-secondary col-5 rounded row m-4">
+            <div class="section__main__top__container__section d-flex background-primary col-5 rounded row m-4">
                 <div class="section__main__top__container__section__item col-8 mb-4">
                     <div class="section__main__top__container__section__item__top mt-4">
                         <input type="radio" aria-label="Radio button for following text input">
@@ -77,7 +102,7 @@
                 </div>
             </div>
             <!-- Items -->
-            <div class="section__main__top__container__section d-flex bg-secondary col-5 rounded row m-4">
+            <div class="section__main__top__container__section d-flex background-primary col-5 rounded row m-4">
                 <div class="section__main__top__container__section__item col-8 mb-4">
                     <div class="section__main__top__container__section__item__top mt-4">
                         <input type="radio" aria-label="Radio button for following text input">
@@ -101,7 +126,7 @@
                 </div>
             </div>
             <!-- Items -->
-            <div class="section__main__top__container__section d-flex bg-secondary col-5 rounded row m-4">
+            <div class="section__main__top__container__section d-flex background-primary col-5 rounded row m-4">
                 <div class="section__main__top__container__section__item col-8 mb-4">
                     <div class="section__main__top__container__section__item__top mt-4">
                         <input type="radio" aria-label="Radio button for following text input">
@@ -127,10 +152,10 @@
         </div>
                 <div  class="section__main__top__container__button__section">
     
-                    <a href="#" class="section__main__top__container__button text-uppercase  ">Etape suivante</a>
+                    <a href="#" class="section__main__top__container__button text-uppercase border rounded p-2 background-primary button-next ">Etape suivante</a>
                 </div>
     </div>
 </section>
-<aside class="asside col-3 m-2 p-5 bg-secondary"><h1>I m the aside</h1>
+<aside class="asside col-2 m-2 background-primary border rounded"><h1>I m the aside</h1>
 </aside>
 @endsection

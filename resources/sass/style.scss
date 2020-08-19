@@ -1,5 +1,5 @@
 .section__header__top__container__lines {
-    border-bottom: 3px solid orange;
+    border-bottom: 3px solid $orange;
 
     max-width: 35px;
     min-height: 2px;
@@ -21,15 +21,16 @@
 }
 
 .section__main__top {
-    margin-left: 3em;
-    > p {
-        color: orange;
+    margin-left: 4.5em;
+
+    >p {
+        color: $orange;
     }
 }
 
 .section__main__top__container__button {
-    color: orange;
-    border: 1px solid orange;
+    color: $orange;
+    border: 1px solid $orange;
     text-align: right;
 }
 
@@ -42,4 +43,24 @@ body {
     font-weight: 200;
     height: 100vh;
     margin: 0;
+}
+
+.background-primary {
+    background-color: rgb(242, 241, 238);
+}
+
+.button-next {
+    border-color: $orange !important;
+}
+
+.button-new {
+    background-color: rgb(242, 240, 236) !important;
+}
+
+.section__header__nav__list__item {
+    a:hover {
+
+        color: black !important;
+        border: 1px solid $orange !important;
+    }
 }
