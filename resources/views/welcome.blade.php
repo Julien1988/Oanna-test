@@ -156,6 +156,90 @@
                 </div>
     </div>
 </section>
-<aside class="asside col-2 m-2 background-primary border rounded"><h1>I m the aside</h1>
+<aside class="asside col-2 m-2 pt-5 background-primary border rounded">
+    <h3 class="asside__title text-uppercase border-bottom pb-3 font-weight-bold">Détail de votre devis</h3>
+    <table class="asside_table table table-borderless border-bottom">
+        <tbody >
+            <tr>
+                <td>Matière</td>
+                <td>Ceramique</td>
+            </tr>
+            <tr>
+                <td>Coloris</td>
+                <td>Avorio</td>
+            </tr>
+            <tr>
+                <td>Epaisseur</td>
+                <td>12mm</td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="asside_table table table-borderless border-bottom">
+        <thead>
+            <tr>
+                <th class="pb-2" scope="col">Plan 01</th>
+               
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Dimension</td>
+                <td>2500 x 900 mm</td>
+            </tr>
+            <tr>
+                <td>Surface</td>
+                <td>2.25 M2</td>
+            </tr>
+            <tr>
+                <td>Longueur des chants</td>
+                <td>2.5 MCT</td>
+            </tr>
+            <tr>
+                <td>Taque de cuisson 01</td>
+                <td>Fleur</td>
+            </tr>
+            <tr>
+                <td>Evier 01</td>
+                <td>
+                    <ul class="list-unstyled">
+                        <li>Sous-encastrer</li>
+                        <li>Sous-encastrer</li>
+                        <li>Sous-encastrer</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>Prise de courant</td>
+                <td>2PC</td>
+            </tr>
+            <tr>
+                <td>Autre façonnage</td>
+                <td>DécoupeA 45°</td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="asside_table table table-borderless border-bottom">
+        <thead>
+            <tr>
+                <th class="pb-2" scope="col">Crédance 01</th>
+               
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Dimension</td>
+                <td>2500 x 900 mm</td>
+            </tr>
+            <tr>
+                <td>Surface</td>
+                <td>2.25 M2</td>
+            </tr>
+            <tr>
+                <td>Longueur des chants</td>
+                <td>2.5 MCT</td>
+            </tr>
+          
+        </tbody>
+    </table>
 </aside>
 @endsection

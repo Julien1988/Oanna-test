@@ -64,3 +64,30 @@ body {
         border: 1px solid $orange !important;
     }
 }
+
+h3 {
+    font-size: 0.800rem;
+}
+
+.table th,
+.table td {
+    padding: 0.15rem;
+
+}
+
+.asside_table {
+    border-color: $orange !important;
+}
+
+.asside__title {
+    border-color: $orange !important;
+}
+
+tbody {
+    tr {
+        >:last-child {
+            color: $orange;
+            font-weight: bold;
+        }
+    }
+}

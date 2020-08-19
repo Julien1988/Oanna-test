@@ -10967,3 +10967,25 @@ body {
   border: 1px solid #ee720f !important;
 }
 
+h3 {
+  font-size: 0.8rem;
+}
+
+.table th,
+.table td {
+  padding: 0.15rem;
+}
+
+.asside_table {
+  border-color: #ee720f !important;
+}
+
+.asside__title {
+  border-color: #ee720f !important;
+}
+
+tbody tr > :last-child {
+  color: #ee720f;
+  font-weight: bold;
+}
+
